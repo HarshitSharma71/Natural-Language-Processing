@@ -1,5 +1,14 @@
-#wap to calculate area of rectangle
-length = float(input("Enter the length of the rectangle: "))
-width = float(input("Enter the width of the rectangle: "))
-area = length * width
-print(f"The area of the rectangle is: {area} square units.")
+x = 5
+y = 10
+
+# To take inputs from the user
+#x = input('Enter value of x: ')
+#y = input('Enter value of y: ')
+
+# create a temporary variable and swap the values
+temp = x
+x = y
+y = temp
+
+print('The value of x after swapping: {}'.format(x))
+print('The value of y after swapping: {}'.format(y))
